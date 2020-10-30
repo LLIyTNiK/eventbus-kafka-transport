@@ -1,5 +1,5 @@
 {
-  "name": "lliytnik/eventbus-kafka-transport",
+  "name": "lliytnik/eventbus-transport-kafka",
   "description": "package for using kafka in eventbus",
   "type": "extension",
   "license": "BSD-3-Clause",
