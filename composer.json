@@ -23,7 +23,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/LLIyTNiK/eventbus.git"
+      "url": "https://github.com/LLIyTNiK/eventbus-transport-kafka.git"
     }
   ]
 }
