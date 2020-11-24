@@ -13,17 +13,25 @@
   "require": {
     "php": ">=7.2.0",
     "lliytnik/eventbus": "dev-main",
+    "lliytnik/kafka": "dev-main",
     "ext-rdkafka" : "*"
   },
   "autoload": {
     "psr-4": {
-      "lliytnik\\eventbus\\transport\\kafka\\": "src"
+      "lliytnik\\eventbus\\transports\\": "src"
     }
   },
   "repositories": [
     {
       "type": "vcs",
       "url": "https://github.com/LLIyTNiK/eventbus-transport-kafka.git"
+    },
+    {
+      "type": "path",
+      "url": "../kafka",
+      "options": {
+        "symlink": true
+      }
     }
   ]
 }
